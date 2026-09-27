@@ -1,0 +1,1016 @@
+{
+  "generatedAt": "2026-09-25T11:02:49+00:00",
+  "source": {
+    "file": "Cleaned_Opportunity_Dataset_Updated.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "rows": 5730,
+        "columns": 35
+      }
+    ],
+    "rows": 5730,
+    "columns": 35,
+    "uniqueOpportunityIds": 5730
+  },
+  "coverage": {
+    "firstPeriod": "2022-08-08",
+    "lastPeriod": "2026-05-28",
+    "recordsWithoutDate": 4
+  },
+  "periods": [
+    {
+      "index": 0,
+      "date": "2022-08-08",
+      "year": 2022,
+      "label": "Aug 2022"
+    },
+    {
+      "index": 1,
+      "date": "2022-12-02",
+      "year": 2022,
+      "label": "Dec 2022"
+    },
+    {
+      "index": 2,
+      "date": "2023-03-28",
+      "year": 2023,
+      "label": "Mar 2023"
+    },
+    {
+      "index": 3,
+      "date": "2023-07-22",
+      "year": 2023,
+      "label": "Jul 2023"
+    },
+    {
+      "index": 4,
+      "date": "2023-11-14",
+      "year": 2023,
+      "label": "Nov 2023"
+    },
+    {
+      "index": 5,
+      "date": "2024-03-09",
+      "year": 2024,
+      "label": "Mar 2024"
+    },
+    {
+      "index": 6,
+      "date": "2024-07-03",
+      "year": 2024,
+      "label": "Jul 2024"
+    },
+    {
+      "index": 7,
+      "date": "2024-10-27",
+      "year": 2024,
+      "label": "Oct 2024"
+    },
+    {
+      "index": 8,
+      "date": "2025-02-19",
+      "year": 2025,
+      "label": "Feb 2025"
+    },
+    {
+      "index": 9,
+      "date": "2025-06-15",
+      "year": 2025,
+      "label": "Jun 2025"
+    },
+    {
+      "index": 10,
+      "date": "2025-10-09",
+      "year": 2025,
+      "label": "Oct 2025"
+    },
+    {
+      "index": 11,
+      "date": "2026-02-02",
+      "year": 2026,
+      "label": "Feb 2026"
+    },
+    {
+      "index": 12,
+      "date": "2026-05-28",
+      "year": 2026,
+      "label": "May 2026"
+    }
+  ],
+  "dateBinning": {
+    "distinctCreatedDates": 13,
+    "spacingDays": [
+      116,
+      116,
+      116,
+      115,
+      116,
+      116,
+      116,
+      115,
+      116,
+      116,
+      116,
+      115
+    ],
+    "largestPeriod": {
+      "index": 3,
+      "date": "2023-07-22",
+      "year": 2023,
+      "label": "Jul 2023",
+      "count": 1052
+    },
+    "recordsCompared": 3863,
+    "matchNearestAnchorPct": 99.0,
+    "medianAbsOffsetDays": 27.6,
+    "maxAbsOffsetDaysWhenMatched": 57.6
+  },
+  "categories": [
+    {
+      "name": "Internship",
+      "count": 1591,
+      "smallSample": false
+    },
+    {
+      "name": "Career",
+      "count": 1088,
+      "smallSample": false
+    },
+    {
+      "name": "Competition",
+      "count": 734,
+      "smallSample": false
+    },
+    {
+      "name": "Course",
+      "count": 632,
+      "smallSample": false
+    },
+    {
+      "name": "Event",
+      "count": 622,
+      "smallSample": false
+    },
+    {
+      "name": "Engagement",
+      "count": 459,
+      "smallSample": false
+    },
+    {
+      "name": "Masterclass",
+      "count": 400,
+      "smallSample": false
+    },
+    {
+      "name": "JobSimulation",
+      "count": 198,
+      "smallSample": false
+    },
+    {
+      "name": "Program",
+      "count": 2,
+      "smallSample": true
+    },
+    {
+      "name": "Xploreu",
+      "count": 2,
+      "smallSample": true
+    },
+    {
+      "name": "Uncategorized",
+      "count": 2,
+      "smallSample": true
+    }
+  ],
+  "locations": [
+    {
+      "name": "Work From Home",
+      "count": 2356
+    },
+    {
+      "name": "Virtual",
+      "count": 1917
+    },
+    {
+      "name": "Not recorded",
+      "count": 1442
+    },
+    {
+      "name": "Unspecified",
+      "count": 15
+    }
+  ],
+  "smallSampleThreshold": 10,
+  "scholarship": {
+    "knownValues": 5387,
+    "positiveValues": 4914,
+    "meanKnown": 3003.74,
+    "medianKnown": 120.0,
+    "p25Known": 120.0,
+    "p75Known": 120.0,
+    "minKnown": 0.0,
+    "maxKnown": 10000000.0,
+    "medianPositive": 120.0,
+    "meanPositive": 3292.87,
+    "meanKnownExcludingExtreme": 172.12,
+    "extremeThresholdUsd": 1000000,
+    "extremeCount": 2,
+    "exactly120Count": 3713
+  },
+  "scholarshipStatus": {
+    "offers": 4914,
+    "zero": 473,
+    "unknown": 343
+  },
+  "scholarshipUnknownDetail": {
+    "rawAmountZeroButCurrencyMissing": 337,
+    "rawAmountPositiveButCurrencyMissing": 3,
+    "rawAmountMissing": 3
+  },
+  "currencyConversion": {
+    "EUR": {
+      "records": 334,
+      "usdPerUnitApprox": 1.14
+    },
+    "INR": {
+      "records": 355,
+      "usdPerUnitApprox": 0.0105
+    },
+    "USD": {
+      "records": 4699,
+      "usdPerUnitApprox": 1.0
+    }
+  },
+  "fee": {
+    "status": {
+      "free": 4204,
+      "paid": 1184,
+      "unknown": 342
+    },
+    "maxFeeUsd": 6000000000000.0
+  },
+  "archived": 384,
+  "likelyTestRecords": {
+    "automationWithTimestamp": 3830,
+    "testWord": 588,
+    "flaggedTotal": 4415,
+    "pctOfTotal": 77.1,
+    "byPeriod": [
+      {
+        "label": "Aug 2022",
+        "total": 14,
+        "likelyTest": 1,
+        "other": 13,
+        "likelyTestPct": 7.1
+      },
+      {
+        "label": "Dec 2022",
+        "total": 10,
+        "likelyTest": 7,
+        "other": 3,
+        "likelyTestPct": 70.0
+      },
+      {
+        "label": "Mar 2023",
+        "total": 274,
+        "likelyTest": 92,
+        "other": 182,
+        "likelyTestPct": 33.6
+      },
+      {
+        "label": "Jul 2023",
+        "total": 1052,
+        "likelyTest": 953,
+        "other": 99,
+        "likelyTestPct": 90.6
+      },
+      {
+        "label": "Nov 2023",
+        "total": 797,
+        "likelyTest": 652,
+        "other": 145,
+        "likelyTestPct": 81.8
+      },
+      {
+        "label": "Mar 2024",
+        "total": 977,
+        "likelyTest": 828,
+        "other": 149,
+        "likelyTestPct": 84.7
+      },
+      {
+        "label": "Jul 2024",
+        "total": 542,
+        "likelyTest": 425,
+        "other": 117,
+        "likelyTestPct": 78.4
+      },
+      {
+        "label": "Oct 2024",
+        "total": 609,
+        "likelyTest": 577,
+        "other": 32,
+        "likelyTestPct": 94.7
+      },
+      {
+        "label": "Feb 2025",
+        "total": 320,
+        "likelyTest": 252,
+        "other": 68,
+        "likelyTestPct": 78.8
+      },
+      {
+        "label": "Jun 2025",
+        "total": 227,
+        "likelyTest": 148,
+        "other": 79,
+        "likelyTestPct": 65.2
+      },
+      {
+        "label": "Oct 2025",
+        "total": 348,
+        "likelyTest": 97,
+        "other": 251,
+        "likelyTestPct": 27.9
+      },
+      {
+        "label": "Feb 2026",
+        "total": 497,
+        "likelyTest": 332,
+        "other": 165,
+        "likelyTestPct": 66.8
+      },
+      {
+        "label": "May 2026",
+        "total": 59,
+        "likelyTest": 50,
+        "other": 9,
+        "likelyTestPct": 84.7
+      }
+    ],
+    "byYear": [
+      {
+        "year": 2022,
+        "total": 24,
+        "likelyTest": 8,
+        "other": 16
+      },
+      {
+        "year": 2023,
+        "total": 2123,
+        "likelyTest": 1697,
+        "other": 426
+      },
+      {
+        "year": 2024,
+        "total": 2128,
+        "likelyTest": 1830,
+        "other": 298
+      },
+      {
+        "year": 2025,
+        "total": 895,
+        "likelyTest": 497,
+        "other": 398
+      },
+      {
+        "year": 2026,
+        "total": 556,
+        "likelyTest": 382,
+        "other": 174
+      }
+    ]
+  },
+  "lastDateToApplyPlaceholders": 1,
+  "durationUnits": {
+    "weeks": 4287,
+    "months": 513,
+    "hours": 371,
+    "days": 369,
+    "minutes": 144,
+    "years": 42
+  },
+  "outliers": [
+    {
+      "code": "EVWV6D6",
+      "category": "Event",
+      "amountUsd": 10000000.0,
+      "rawAmount": 10000000.0,
+      "rawCurrency": "USD",
+      "period": "2023-03-28",
+      "archived": true,
+      "likelyTest": false,
+      "extreme": true
+    },
+    {
+      "code": "JZL6EIP",
+      "category": "JobSimulation",
+      "amountUsd": 5254308.53,
+      "rawAmount": 500000000.0,
+      "rawCurrency": "INR",
+      "period": "2024-07-03",
+      "archived": false,
+      "likelyTest": false,
+      "extreme": true
+    },
+    {
+      "code": "M3JZ9U8",
+      "category": "Competition",
+      "amountUsd": 16558.5,
+      "rawAmount": 14525.0,
+      "rawCurrency": "EUR",
+      "period": "2023-03-28",
+      "archived": true,
+      "likelyTest": true,
+      "extreme": false
+    },
+    {
+      "code": "MQWM1QC",
+      "category": "Competition",
+      "amountUsd": 12666.54,
+      "rawAmount": 11111.0,
+      "rawCurrency": "EUR",
+      "period": "2023-11-14",
+      "archived": false,
+      "likelyTest": false,
+      "extreme": false
+    },
+    {
+      "code": "A6I1UVG",
+      "category": "Career",
+      "amountUsd": 11388.6,
+      "rawAmount": 9990.0,
+      "rawCurrency": "EUR",
+      "period": "2023-11-14",
+      "archived": false,
+      "likelyTest": true,
+      "extreme": false
+    },
+    {
+      "code": "M395107",
+      "category": "Internship",
+      "amountUsd": 10048.0,
+      "rawAmount": 10048.0,
+      "rawCurrency": "USD",
+      "period": "2022-12-02",
+      "archived": false,
+      "likelyTest": false,
+      "extreme": false
+    },
+    {
+      "code": "A9S2DQQ",
+      "category": "Career",
+      "amountUsd": 6700.0,
+      "rawAmount": 6700.0,
+      "rawCurrency": "USD",
+      "period": "2023-03-28",
+      "archived": true,
+      "likelyTest": true,
+      "extreme": false
+    },
+    {
+      "code": "MX9EQ68",
+      "category": "Competition",
+      "amountUsd": 6000.0,
+      "rawAmount": 6000.0,
+      "rawCurrency": "USD",
+      "period": "2023-03-28",
+      "archived": true,
+      "likelyTest": true,
+      "extreme": false
+    },
+    {
+      "code": "AP7X2QH",
+      "category": "Career",
+      "amountUsd": 5814.0,
+      "rawAmount": 5100.0,
+      "rawCurrency": "EUR",
+      "period": "2023-03-28",
+      "archived": true,
+      "likelyTest": true,
+      "extreme": false
+    },
+    {
+      "code": "ELTWPF5",
+      "category": "Event",
+      "amountUsd": 4004.82,
+      "rawAmount": 3513.0,
+      "rawCurrency": "EUR",
+      "period": "2023-03-28",
+      "archived": true,
+      "likelyTest": true,
+      "extreme": false
+    }
+  ],
+  "columnProfile": [
+    {
+      "column": "PK",
+      "dtype": "str",
+      "nonNull": 5730,
+      "nulls": 0,
+      "unique": 1,
+      "role": "excluded",
+      "note": "Constant value ('Opportunity#'); carries no information."
+    },
+    {
+      "column": "OPPORTUNITY ID",
+      "dtype": "str",
+      "nonNull": 5730,
+      "nulls": 0,
+      "unique": 5730,
+      "role": "excluded",
+      "note": "Internal key; not needed for aggregation."
+    },
+    {
+      "column": "BADGE",
+      "dtype": "str",
+      "nonNull": 5362,
+      "nulls": 368,
+      "unique": 5362,
+      "role": "excluded",
+      "note": "Nested JSON references to related records."
+    },
+    {
+      "column": "CAREER ADD ON",
+      "dtype": "str",
+      "nonNull": 905,
+      "nulls": 4825,
+      "unique": 905,
+      "role": "excluded",
+      "note": "Nested JSON references to related records."
+    },
+    {
+      "column": "CATEGORY",
+      "dtype": "str",
+      "nonNull": 5728,
+      "nulls": 2,
+      "unique": 10,
+      "role": "used",
+      "note": "Category filter and charts."
+    },
+    {
+      "column": "CODE",
+      "dtype": "str",
+      "nonNull": 5727,
+      "nulls": 3,
+      "unique": 5726,
+      "role": "excluded",
+      "note": "Short opportunity code; used only to identify outliers for verification."
+    },
+    {
+      "column": "COHORT",
+      "dtype": "str",
+      "nonNull": 5709,
+      "nulls": 21,
+      "unique": 5708,
+      "role": "excluded",
+      "note": "Nested JSON references to related records."
+    },
+    {
+      "column": "CREATED AT",
+      "dtype": "datetime64[us]",
+      "nonNull": 5726,
+      "nulls": 4,
+      "unique": 13,
+      "role": "used",
+      "note": "Creation-period trend and year filter."
+    },
+    {
+      "column": "CURRENCY TYPE",
+      "dtype": "str",
+      "nonNull": 5388,
+      "nulls": 342,
+      "unique": 3,
+      "role": "excluded",
+      "note": "Used during processing to interpret amounts; not exported per record."
+    },
+    {
+      "column": "CURRENT EDITOR",
+      "dtype": "str",
+      "nonNull": 214,
+      "nulls": 5516,
+      "unique": 15,
+      "role": "excluded",
+      "note": "Contains staff email addresses (personal data)."
+    },
+    {
+      "column": "DROPOUT TRANSACTION",
+      "dtype": "str",
+      "nonNull": 10,
+      "nulls": 5720,
+      "unique": 10,
+      "role": "excluded",
+      "note": "Sparse JSON references to transaction records; not applicant data."
+    },
+    {
+      "column": "DURATION",
+      "dtype": "float64",
+      "nonNull": 5728,
+      "nulls": 2,
+      "unique": 105,
+      "role": "excluded",
+      "note": "Mixed units (minutes to years); not used in this baseline."
+    },
+    {
+      "column": "DURATION TYPE",
+      "dtype": "str",
+      "nonNull": 5726,
+      "nulls": 4,
+      "unique": 6,
+      "role": "excluded",
+      "note": "Profiled only (unit distribution)."
+    },
+    {
+      "column": "ELIGIBILITY",
+      "dtype": "str",
+      "nonNull": 5379,
+      "nulls": 351,
+      "unique": 5378,
+      "role": "excluded",
+      "note": "Nested JSON references to related records."
+    },
+    {
+      "column": "FEE",
+      "dtype": "float64",
+      "nonNull": 5728,
+      "nulls": 2,
+      "unique": 102,
+      "role": "excluded",
+      "note": "Raw fee in mixed currencies; fee_usd is used instead."
+    },
+    {
+      "column": "IMAGE LINK",
+      "dtype": "str",
+      "nonNull": 5340,
+      "nulls": 390,
+      "unique": 3484,
+      "role": "excluded",
+      "note": "Image URLs; not analytical."
+    },
+    {
+      "column": "IS ARCHIVED",
+      "dtype": "bool",
+      "nonNull": 5730,
+      "nulls": 0,
+      "unique": 2,
+      "role": "used",
+      "note": "Status filter."
+    },
+    {
+      "column": "IS AUTO APPROVED",
+      "dtype": "bool",
+      "nonNull": 5730,
+      "nulls": 0,
+      "unique": 2,
+      "role": "excluded",
+      "note": "Administrative flag; not used in this baseline."
+    },
+    {
+      "column": "LAST DATE TO APPLY",
+      "dtype": "datetime64[us]",
+      "nonNull": 5727,
+      "nulls": 3,
+      "unique": 19,
+      "role": "excluded",
+      "note": "Snapped to the same 13 anchor dates as CREATED AT and contains placeholder dates (e.g. 1970-01-01)."
+    },
+    {
+      "column": "LOCATION",
+      "dtype": "str",
+      "nonNull": 4288,
+      "nulls": 1442,
+      "unique": 3,
+      "role": "used",
+      "note": "Delivery mode filter and charts."
+    },
+    {
+      "column": "LONG DESCRIPTION",
+      "dtype": "object",
+      "nonNull": 5384,
+      "nulls": 346,
+      "unique": 892,
+      "role": "excluded",
+      "note": "Free text."
+    },
+    {
+      "column": "MICROSCHOLARSHIP",
+      "dtype": "float64",
+      "nonNull": 5727,
+      "nulls": 3,
+      "unique": 159,
+      "role": "excluded",
+      "note": "Raw amount in mixed currencies; microscholarship_usd is used instead."
+    },
+    {
+      "column": "MODIFIED AT",
+      "dtype": "datetime64[us]",
+      "nonNull": 5728,
+      "nulls": 2,
+      "unique": 11,
+      "role": "excluded",
+      "note": "Snapped to anchor dates; not used in this baseline."
+    },
+    {
+      "column": "NAME",
+      "dtype": "object",
+      "nonNull": 5727,
+      "nulls": 3,
+      "unique": 5567,
+      "role": "excluded",
+      "note": "Free text; used only to flag likely test records."
+    },
+    {
+      "column": "NOT STARTED TRANSACTION",
+      "dtype": "str",
+      "nonNull": 11,
+      "nulls": 5719,
+      "unique": 11,
+      "role": "excluded",
+      "note": "Sparse JSON references to transaction records; not applicant data."
+    },
+    {
+      "column": "PANELIST",
+      "dtype": "str",
+      "nonNull": 1170,
+      "nulls": 4560,
+      "unique": 1170,
+      "role": "excluded",
+      "note": "Nested JSON references to related records."
+    },
+    {
+      "column": "REWARD",
+      "dtype": "str",
+      "nonNull": 5363,
+      "nulls": 367,
+      "unique": 5362,
+      "role": "excluded",
+      "note": "Nested JSON references to related records."
+    },
+    {
+      "column": "ROLE",
+      "dtype": "str",
+      "nonNull": 1890,
+      "nulls": 3840,
+      "unique": 406,
+      "role": "excluded",
+      "note": "Sparse free text."
+    },
+    {
+      "column": "ROLE RESPONSIBILITY",
+      "dtype": "str",
+      "nonNull": 1076,
+      "nulls": 4654,
+      "unique": 85,
+      "role": "excluded",
+      "note": "Sparse free text."
+    },
+    {
+      "column": "SHORT DESCRIPTION",
+      "dtype": "object",
+      "nonNull": 5727,
+      "nulls": 3,
+      "unique": 835,
+      "role": "excluded",
+      "note": "Free text."
+    },
+    {
+      "column": "SUMMARY",
+      "dtype": "object",
+      "nonNull": 198,
+      "nulls": 5532,
+      "unique": 82,
+      "role": "excluded",
+      "note": "Sparse free text."
+    },
+    {
+      "column": "TESTIMONIAL",
+      "dtype": "str",
+      "nonNull": 848,
+      "nulls": 4882,
+      "unique": 848,
+      "role": "excluded",
+      "note": "Nested JSON references to related records."
+    },
+    {
+      "column": "TRACKING QUESTION",
+      "dtype": "str",
+      "nonNull": 4622,
+      "nulls": 1108,
+      "unique": 4622,
+      "role": "excluded",
+      "note": "Nested JSON form definitions."
+    },
+    {
+      "column": "fee_usd",
+      "dtype": "float64",
+      "nonNull": 5388,
+      "nulls": 342,
+      "unique": 146,
+      "role": "used",
+      "note": "Free vs paid split only (amounts contain extreme values)."
+    },
+    {
+      "column": "microscholarship_usd",
+      "dtype": "float64",
+      "nonNull": 5387,
+      "nulls": 343,
+      "unique": 264,
+      "role": "used",
+      "note": "Scholarship status and amounts (USD)."
+    }
+  ],
+  "applicantFieldScan": {
+    "keywords": [
+      "applicant",
+      "application",
+      "apply_date",
+      "signup",
+      "sign_up",
+      "sign up",
+      "registration",
+      "user_id",
+      "student",
+      "channel",
+      "source",
+      "utm",
+      "campaign",
+      "referral",
+      "impression",
+      "click",
+      "conversion",
+      "country",
+      "city",
+      "state",
+      "region"
+    ],
+    "matchingColumns": []
+  },
+  "transactionReferenceCounts": {
+    "NOT STARTED TRANSACTION": 11,
+    "DROPOUT TRANSACTION": 10
+  },
+  "reconciliation": [
+    {
+      "metric": "total_records",
+      "week2Reported": 5730,
+      "computed": 5730,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "total_attributes",
+      "week2Reported": 35,
+      "computed": 35,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "records_with_creation_date",
+      "week2Reported": 5726,
+      "computed": 5726,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "records_with_location",
+      "week2Reported": 4288,
+      "computed": 4288,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "records_with_scholarship_value",
+      "week2Reported": 5387,
+      "computed": 5387,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "offering_scholarship",
+      "week2Reported": 4914,
+      "computed": 4914,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "offering_scholarship_pct",
+      "week2Reported": 85.8,
+      "computed": 85.8,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "missing_location",
+      "week2Reported": 1442,
+      "computed": 1442,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "missing_scholarship_value",
+      "week2Reported": 343,
+      "computed": 343,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "scholarship_mean_usd",
+      "week2Reported": 3003.74,
+      "computed": 3003.74,
+      "match": true,
+      "note": "Driven by two values of $1M or more; see outliers."
+    },
+    {
+      "metric": "scholarship_median_usd",
+      "week2Reported": 120.0,
+      "computed": 120.0,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "scholarship_p25_usd",
+      "week2Reported": 120.0,
+      "computed": 120.0,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "scholarship_p75_usd",
+      "week2Reported": 120.0,
+      "computed": 120.0,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "scholarship_min_usd",
+      "week2Reported": 0.0,
+      "computed": 0.0,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "scholarship_max_usd",
+      "week2Reported": 10000000.0,
+      "computed": 10000000.0,
+      "match": true,
+      "note": "Single archived Event record; requires verification before financial use."
+    },
+    {
+      "metric": "duplicate_records",
+      "week2Reported": 0,
+      "computed": 0,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "weeks_duration_unit",
+      "week2Reported": 4287,
+      "computed": 4287,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "created_2022",
+      "week2Reported": 24,
+      "computed": 24,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "created_2023",
+      "week2Reported": 2123,
+      "computed": 2123,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "created_2024",
+      "week2Reported": 2128,
+      "computed": 2128,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "created_2025",
+      "week2Reported": 895,
+      "computed": 895,
+      "match": true,
+      "note": null
+    },
+    {
+      "metric": "created_2026",
+      "week2Reported": 556,
+      "computed": 556,
+      "match": true,
+      "note": "Partial year; dataset ends at the May 2026 period."
+    },
+    {
+      "metric": "largest_creation_group_jul_2023",
+      "week2Reported": 1052,
+      "computed": 1052,
+      "match": true,
+      "note": "Count is correct, but it is the Jul 2023 creation period (about 4 months), not a single calendar month."
+    }
+  ]
+}

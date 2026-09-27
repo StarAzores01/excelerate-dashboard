@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Source spreadsheet: contains staff email addresses and free-text fields that
+# the dashboard does not need. Keep it local; the processed JSON in public/data
+# is what gets committed and deployed.
+data/source/*.xlsx
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.log
